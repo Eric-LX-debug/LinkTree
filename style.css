@@ -63,4 +63,48 @@ button {
 }
 
 
+/* XXXXXXXXXXXXXXXXXXX Design responsivo XXXXXXXXXXXXXXXXXXXXXXXX */
+@media only screen and (max-width: 538px) {
+    
+    .container {
+        height: 100vh;
+        max-height: 30em;
+        max-width: 90%;
+    }
+    
+    .text {
+        margin-top: 2em;
+        margin-bottom: 1em;
+        font-size: 18px;
+        color: black;
+    }
+      
+    button {
+        
+        margin: 0.2em;
+        width: 100%;
+    }
+}
 
+
+@media only screen and (max-width: 352px) {
+    
+    .container {
+        height: 100vh;
+        max-height: 45em;
+        max-width: 100%;
+        padding: 1em;
+    }
+    
+    .text {
+        margin-top: 2em;
+        margin-bottom: 1em;
+        font-size: 18px;
+        color: black;
+    }
+
+    button {
+        margin: 0.2em;
+        max-width: 100%;
+    }
+}
