@@ -2,9 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+}
   
-  body {
+body {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,9 +14,9 @@
     color: slateblue;
     background-color: slateblue; /* Fundo claro que combina com azul */
     
-  }
+}
   
-  .container {
+.container {
     border: solid 2px  rgb(70, 50, 160);
     background-color: #FFFFFF; /* Fundo branco para contraste */
     width: 32em;
@@ -25,38 +25,29 @@
     border-radius: 10px; /* Bordas arredondadas */
     padding: 0em 2.25em 0em 2.25em;
   
-  }
+}
   
-  .title {
-    
+.title {
     margin: 1.5em;
-     /* Azul para o título */
-    text-align: center;
-  }
+}
   
-  .subtitle {
+.subtitle {
     margin-bottom: 0.7em;
     font-size: 12px;
     font-style: italic;
-     /* Um tom diferente de azul para o subtítulo */
-    text-align: center;
-  }
+}
   
-  .text {
+.text {
     margin-top: 1em;
-    color: black;/* Outro tom de azul para o texto */
-    text-align: center;
     font-size: 18px;
-  }
+    color: black;
+}
   
-
-
-  button {
-    color: white; /* Azul para os links */
+button {
     text-decoration: none;
-    text-align: center;
     transition: color 0.3s;
     border-radius: 5px;
+    color: white;
     border: solid 2px  rgb(70, 50, 160);
     background-color: rgb(106, 90, 205);
     padding: 0.5em 1.5em 1em;
@@ -65,9 +56,11 @@
     transition: background-color 0.3s ease, transform 0.3s ease;
     cursor:pointer;
     
-  }
-  
-  
-  .links button:hover {
+}
+   
+.links button:hover {
     background-color:  rgb(83, 63, 175); /* Mudar a cor ao passar o mouse */
-  }
+}
+
+
+
