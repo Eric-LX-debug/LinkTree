@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: slateblue;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: slateblue; /* Fundo claro que combina com azul */
+    height: 100%;
+  }
+  
+  .container {
+    background-color: #FFFFFF; /* Fundo branco para contraste */
+    width: 20em;
+    height: 20em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Borda sombreada */
+    border-radius: 10px; /* Bordas arredondadas */
+    padding: 1em;
+  
+  }
+  
+  .title {
+    margin: 1em;
+     /* Azul para o título */
+    text-align: center;
+  }
+  
+  .subtitle {
+    margin-bottom: 1em;
+    font-size: 10px;
+    font-style: italic;
+     /* Um tom diferente de azul para o subtítulo */
+    text-align: center;
+  }
+  
+  .text {
+    color: black;/* Outro tom de azul para o texto */
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  button {
+    color: white; /* Azul para os links */
+    text-decoration: none;
+    text-align: center;
+    transition: color 0.3s;
+    border-radius: 5px;
+    border: none;
+    background-color: slateblue;
+    padding: 1em;
+  }
+  
+  .links a:hover {
+    color: #4169E1; /* Mudar a cor ao passar o mouse */
+  }
